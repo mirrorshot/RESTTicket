@@ -1,0 +1,11 @@
+spring:
+  mvc:
+    view:
+      prefix: /views/
+      suffix: .html
+  datasource:
+    url: jdbc:h2:mem:boxoffice
+    initialize: true
+    username: sa
+    password:
+    driverClassName: org.h2.Driver
